@@ -142,19 +142,19 @@
 ### 7. Borrowed Books Summary
 URL: GET /api/borrow
 
-`Response:
+`Response:`
 `{
-  "success": true,`
+  "success": true,
   "message": "Borrowed books summary retrieved successfully"`
   `"data": [
- {
+ `{
       "book": {
         "title": "The Theory of Everything",`
         "isbn": "9780553380163"`
-      },
+      },`
       "totalQuantity": 5`
     },`
-    {
+    `{
       "book": {`
         "title": "1984",
         "isbn": "9780451524935"
