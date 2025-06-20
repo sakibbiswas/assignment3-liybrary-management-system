@@ -31,7 +31,7 @@ bookSchema.methods.updateAvailability = function () {
   this.available = this.copies > 0;
 };
 
-// Mongoose Middleware: update availability before saving
+// Mongoose Middleware: update availability before saving.
 bookSchema.pre('save', function (next) {
   this.updateAvailability();
   next();

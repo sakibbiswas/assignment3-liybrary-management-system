@@ -1,7 +1,4 @@
-
-
 import { z } from 'zod';
-
 export const borrowValidationSchema = z.object({
   book: z.string({ required_error: 'Book ID is required' }),
   quantity: z

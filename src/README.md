@@ -13,7 +13,7 @@
   Error handling middleware  
  Well-structured modular codebase  `
 
----
+--------------------------------------
 
 ## Setup Instructions
 
