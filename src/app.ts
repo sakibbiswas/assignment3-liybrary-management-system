@@ -12,7 +12,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Root endpoint
+// Root endpoint.
 app.get('/', (req, res) => {
   res.send('📚 Library Management API is running!');
 });
@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 app.use('/api/books', bookRoutes);
 app.use('/api/borrow', borrowRoutes); 
 
-// Global error handler
+// Global error handler.
 app.use(globalErrorHandler);
 
 export default app;
