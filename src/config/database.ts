@@ -1,8 +1,5 @@
 import mongoose from 'mongoose';
 
-
-
-
 const connectDB = async () => {
   try {
     await mongoose.connect("mongodb+srv://sazzadur:sakib9988@cluster0.uxaxmsb.mongodb.net/todosDB?retryWrites=true&w=majority&appName=Cluster0");
