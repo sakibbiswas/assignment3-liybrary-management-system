@@ -174,3 +174,5 @@ URL: GET /api/borrow
 ### Start the server in dev mode:
 `npm run dev`
 
+### Deployment
+`In this project i deployed to Vercel ( Vercel live link : https://library-management-system-nine-iota.vercel.app/ ).`
