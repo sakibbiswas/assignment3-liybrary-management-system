@@ -175,4 +175,4 @@ URL: GET /api/borrow
 `npm run dev`
 
 ### Deployment
-`In this project i deployed to Vercel ( Vercel live link : https://library-management-system-nine-iota.vercel.app/ ).`
+`In this project i deployed to Vercel .  Vercel live link :`[ https://library-management-system-nine-iota.vercel.app/ ].
